@@ -64,5 +64,8 @@ kubectl apply -f workloads/sample-deployment.yaml
 ## Kubecost:
 
 kubectl port-forward svc/kubecost-cost-analyzer 9090:9090
-# ---> Visit: http://localhost:9090
+## --> Visit: http://localhost:9090
 
+
+## Guide on medium 
+## --> https://manikmalhotra6.medium.com/how-i-built-a-real-time-kubernetes-cost-monitoring-dashboard-with-kubecost-f19c498d01d6
